@@ -21,6 +21,6 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore DiaShowApi/DiaShowApi.proj
+      run: dotnet restore DiaShowApi/DiaShowApi.csproj
     - name: Build
-      run: dotnet build --no-restore DiaShowApi/DiaShowAp
+      run: dotnet build --no-restore DiaShowApi/DiaShowApi.csproj
